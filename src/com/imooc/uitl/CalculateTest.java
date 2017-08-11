@@ -12,13 +12,8 @@ import org.junit.Test;
 public class CalculateTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-	
-	@Test
 	public void add(){
-		
+		assertEquals(6, new Calculate().add(3, 3));
 	}
 
 }
